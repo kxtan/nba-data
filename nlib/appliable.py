@@ -29,3 +29,8 @@ def npmedian(x):
     """Numpy Library Median"""
 
     return numpy.median(x)
+    
+def npmean(x):
+    """Numpy Library Median"""
+
+    return numpy.mean(x)
