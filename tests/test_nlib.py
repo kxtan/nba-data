@@ -19,7 +19,7 @@ def test_group_by_operations():
     """
     expected = {"john": 22, "kristen": 17, "piers": 10, "sam": 15}
     actual = csvops.aggregate_column_name(
-        data="../ext/input.csv",
+        data="../data/input.csv",
         groupby_column_name="first_name",
         apply_column_name="count",
     )
